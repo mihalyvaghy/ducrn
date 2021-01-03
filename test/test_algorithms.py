@@ -30,4 +30,3 @@ class DUCRNAlgorithmsTest(unittest.TestCase):
         self.assertEqual(0, FindRow(numpy.array([(i,j,k) for i in range(3) for j in range(3) for k in range(3) if i != 0 or j != k]), numpy.array([0,0,1])))
         self.assertEqual(23, FindRow(numpy.array([(i,j,k) for i in range(3) for j in range(3) for k in range(3) if i != 0 or j != k]), numpy.array([2,2,2])))
         self.assertEqual(24, FindRow(numpy.array([(i,j,k) for i in range(3) for j in range(3) for k in range(3) if i != 0 or j != k]), numpy.array([0,0,0])))
-
